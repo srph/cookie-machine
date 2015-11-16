@@ -6,6 +6,8 @@ A universal cookie library.
 npm i cookie-machine -S
 ```
 
+Although tests are running on `>=4.0` (because os jsdom), the library should support node.js `>=0.12`.
+
 Currently, only CommonJS is supported. Please submit an issue if you'd like any other module to be supported. Although, browsers have low chances of being supported.
 
 ### Usage
