@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "browser": "lib/browser.js",
   "scripts": {
-    "test": "mocha -G -c ./test/server.spec.js",
-    "test:client": "mocha -G -c ./test/browser.spec.js --require=./test/jsdom.setup.js"
+    "test": "mocha -G -c ./test/*.spec.js --require=./test/jsdom.setup.js"
   },
   "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
   "license": "ISC",
