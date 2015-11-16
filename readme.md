@@ -28,3 +28,24 @@ cookie.set('yolo', 'swag');
 ```
 
 Check out more [examples](tree/master/examples).
+
+### API
+Here are some of the methods exposed by the library:
+
+#### `init(object res): void`
+- `res` - An object which is expected to be node's native `response`.
+Initializes `cookie` to be ready for node. In the client, this is a `noop`.
+
+#### `get(string key): any`
+- `key` - The key of the cookie to be get.
+Returns the value of the key in the cookie.
+
+#### `set(string key, any value [, object options: { expires: new Date(0) }]): void`
+- `key` - The key of the cookie to be stored.
+- `value` - The value of the cookie to be stored.
+- `options` - (`optional`) Cookie options such as `expired`, `domain`, `path`, and etc.
+Set a value in the cookie.
+
+#### `remove(string key [, object options: { expires: new Date(0) }])`
+- `key` - Key in the cookie to be removed.
+- `options` - (`optional`) Cookie options such as `expired`, `domain`, `path`, and etc.
