@@ -4,6 +4,12 @@ var http = require('http');
 var cookie = require('../lib/browser');
 
 describe('server-side cookie', function() {
+  describe('.get', function() {
+    it('should work', function() {
+      expect(cookie.get('swag_swag_swag_')).to.be.undefined;
+    });
+  });
+
   describe('.set', function() {
     it('should work', function() {
       cookie.set('yolo', 'swag');
