@@ -15,6 +15,10 @@ describe('server-side cookie', function() {
       cookie.set('yolo', 'swag');
       expect(cookie.get('yolo')).to.equal('swag');
     });
+
+    it('should return the serialized key-value', function() {
+      expect(cookie.set('yolo', 'swag')).to.equal('yolo=swag');
+    });
   });
 
   describe('.remove', function() {

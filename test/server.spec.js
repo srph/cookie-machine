@@ -16,6 +16,18 @@ describe('server-side cookie', function() {
         .get('/')
         .expect('Set-Cookie', /yolo=swag/, done);
     });
+
+    it('should return the serialized key-value', function(done) {
+      var server = http.createServer(function(req, res) {
+        cookie.init(res);
+        expect(cookie.set('yolo', 'swag')).to.equal('yolo=swag');
+        res.end();
+      });
+
+      request(server)
+        .get('/')
+        .end(done);
+    });
   });
 
   describe('.remove', function() {
