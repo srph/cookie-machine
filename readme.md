@@ -50,4 +50,4 @@ Set a value in the cookie.
 #### `remove(string key [, object options]): void`
 - `key` - Key in the cookie to be removed.
 - `options` - (`optional`, *defaults* to `{ expires: new Date(0) }`) Cookie options such as `expired`, `domain`, `path`, and etc.
-Set a value in the cookie.
+Remove a key in the cookie.
