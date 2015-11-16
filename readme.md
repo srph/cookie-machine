@@ -34,6 +34,7 @@ Here are some of the methods exposed by the library:
 
 #### `init(object res): void`
 - `res` - An object which is expected to be node's native `response`.
+
 Initializes `cookie` to be ready for node. In the client, this is a `noop`.
 
 #### `get(string key): any`
