@@ -40,12 +40,13 @@ Initializes `cookie` to be ready for node. In the client, this is a `noop`.
 - `key` - The key of the cookie to be get.
 Returns the value of the key in the cookie.
 
-#### `set(string key, any value [, object options: { expires: new Date(0) }]): void`
+#### `set(string key, any value [, object options]): void`
 - `key` - The key of the cookie to be stored.
 - `value` - The value of the cookie to be stored.
-- `options` - (`optional`) Cookie options such as `expired`, `domain`, `path`, and etc.
+- `options` - (`optional`, *defaults* to `{ expires: new Date(0) }`) Cookie options such as `expired`, `domain`, `path`, and etc.
 Set a value in the cookie.
 
-#### `remove(string key [, object options: { expires: new Date(0) }])`
+#### `remove(string key [, object options])`
 - `key` - Key in the cookie to be removed.
-- `options` - (`optional`) Cookie options such as `expired`, `domain`, `path`, and etc.
+- `options` - (`optional`, *defaults* to `{ expires: new Date(0) }`) Cookie options such as `expired`, `domain`, `path`, and etc.
+Set a value in the cookie.
