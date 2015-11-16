@@ -1,4 +1,4 @@
-## cookie-machine
+## cookie-machine [![npm version](http://img.shields.io/npm/v/cookie-machine.svg?style=flat-square)](https://npmjs.org/package/cookie-machine?style=flat-square) [![Build Status](https://img.shields.io/travis/srph/cookie-machine.svg?style=flat-square)](https://travis-ci.org/srph/cookie-machine?branch=master)
 A universal cookie library.
 
 ### Installing
