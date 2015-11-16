@@ -26,3 +26,5 @@ var cookie = require('cookie-machine');
 // init is only required for the server-side.
 cookie.set('yolo', 'swag');
 ```
+
+Check out more [examples](tree/master/examples).
