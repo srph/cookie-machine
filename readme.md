@@ -53,3 +53,8 @@ Set a value in the cookie.
 - `options` - (`optional`, *defaults* to `{ expires: new Date(0) }`) Cookie options such as `expired`, `domain`, `path`, and etc.
 
 Remove a key in the cookie.
+
+### License
+[MIT](LICENSE)
+
+This project was motivated by [cookie-dough](https://github.com/change/cookie).
