@@ -8,7 +8,7 @@ npm i cookie-machine -S
 
 Although tests are running on node `>=4.0` (because of jsdom), the library should support node `>=0.12`.
 
-Currently, only CommonJS is supported. Please submit an issue if you'd like any other module to be supported. Although, browser builds have low chances of being supported because it doesn't maky any sense.
+Currently, only CommonJS is supported. Please submit an issue if you'd like any other module to be supported. Although, browser builds have low chances of being supported because it doesn't make any sense.
 
 ### Usage
 ```js
